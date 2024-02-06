@@ -32,7 +32,7 @@ I believe in learning by doing, and here are a few projects that showcase my ski
 [2048 Clone](https://github.com/qmorineau/2048-Game-Clone) : Let's get back in 2014 with this clone project. I did it to challenge myself with the algorithm. Enjoy it :)
 
 
-Feel free to explore these projects and provide any feedback or suggestions you may have. In the future, I will put on some Java projects, I'm still learning it and do only small ones.
+Feel free to explore these projects and provide any feedback or suggestions you may have. In the future, I plan to undertake several Java projects as I continue to learn the language, focusing on smaller-scale endeavors for now.
 
 ## 📫 Get in Touch
 
