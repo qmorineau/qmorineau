@@ -25,11 +25,11 @@ I'm always striving to learn and grow. Here are some of the technologies I'm cur
 
 I believe in learning by doing, and here are a few projects that showcase my skills and interests:
 
-[A+ Studio](https://github.com/qmorineau/A-Plus-Studio-Figma) : This is just a static page I made during my training.
+[A+ Studio](https://github.com/qmorineau/A-Plus-Studio-Figma): This is just a static page I made during my training.
 
-[BeMovies](BeMovies-App) : This one was a group project during my training. I remade all of it before learning React.js.
+[BeMovies](BeMovies-App): This one was a group project during my training. I remade all of it before learning React.js.
 
-[2048 Clone](https://github.com/qmorineau/2048-Game-Clone) : Let's get back in 2014 with this clone project. I did it to challenge myself with the algorithm. Enjoy it :)
+[2048 Clone](https://github.com/qmorineau/2048-Game-Clone): Let's get back in 2014 with this clone project. I did it to challenge myself with the algorithm. Enjoy it :)
 
 
 Feel free to explore these projects and provide any feedback or suggestions you may have. In the future, I plan to undertake several Java projects as I continue to learn the language, focusing on smaller-scale endeavors for now.
@@ -38,5 +38,5 @@ Feel free to explore these projects and provide any feedback or suggestions you 
 
 I'm open to collaboration and networking. If you have any exciting project ideas, or job opportunities, or just want to connect, feel free to reach out to me via:
 
-- Email : q.morineau@gmail.com
-- LinkedIn : https://www.linkedin.com/in/quentin-morineau
+- Email: q.morineau@gmail.com
+- LinkedIn: https://www.linkedin.com/in/quentin-morineau
