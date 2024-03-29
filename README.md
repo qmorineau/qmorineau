@@ -27,7 +27,7 @@ I believe in learning by doing, and here are a few projects that showcase my ski
 
 [A+ Studio](https://github.com/qmorineau/A-Plus-Studio-Figma): This is just a static page I made during my training.
 
-[BeMovies](BeMovies-App): This one was a group project during my training. I remade all of it before learning React.js.
+[BeMovies](https://github.com/qmorineau/BeMovies-App): This one was a group project during my training. I remade all of it before learning React.js.
 
 [2048 Clone](https://github.com/qmorineau/2048-Game-Clone): Let's get back in 2014 with this clone project. I did it to challenge myself with the algorithm. Enjoy it :)
 
