@@ -20,6 +20,7 @@ I'm always striving to learn and grow. Here are some of the technologies I'm cur
 - Object-Oriented Programming (Java)
 - Unit testing (JUnit for Java)
 - Spring (Java framework)
+- C-Programming
 
 ## 🚀 Projects 
 
