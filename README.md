@@ -17,10 +17,10 @@ I am a **full-stack developer** trainee with a background as a pastry chef. For 
 
 I'm always striving to learn and grow. Here are some of the technologies I'm currently diving into:
 
+- C-Programming (I'll be part of 42 campus really soon)
 - Object-Oriented Programming (Java)
 - Unit testing (JUnit for Java)
 - Spring (Java framework)
-- C-Programming
 
 ## 🚀 Projects 
 
