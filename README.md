@@ -10,7 +10,7 @@ I am a **full-stack developer** trainee with a background as a pastry chef. For 
 
 - Markup Languages: Markdown, HTML
 - Frontend: CSS, SASS, Javascript, React.js
-- Backend: Node.js, Java, C, C++
+- Backend: C, C++, Node.js, Java 
 - Databases: MongoDB, MySQL
 
 ## 🚀 Projects 
