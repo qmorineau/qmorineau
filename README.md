@@ -10,17 +10,8 @@ I am a **full-stack developer** trainee with a background as a pastry chef. For 
 
 - Markup Languages: Markdown, HTML
 - Frontend: CSS, SASS, Javascript, React.js
-- Backend: Node.js, Java
+- Backend: Node.js, Java, C, C++
 - Databases: MongoDB, MySQL
-
-## 🌱 Currently Learning 
-
-I'm always striving to learn and grow. Here are some of the technologies I'm currently diving into:
-
-- C-Programming (I'll be part of 42 campus really soon)
-- Object-Oriented Programming (Java)
-- Unit testing (JUnit for Java)
-- Spring (Java framework)
 
 ## 🚀 Projects 
 
