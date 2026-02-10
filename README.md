@@ -25,6 +25,6 @@ I am a Software Developer at 42 Belgium, transitioning from a 12-year career as 
 | :--- | :--- |
 | **Languages** | C, C++, Java, JavaScript, HTML/CSS, C# (Beginner) |
 | **Graphics & Math** | Linear Algebra, OpenGL (Learning), Unity (Basics), 3D Coordinate Transformations |
-| **Systems & Backend** | Memory Optimization, Process Management (fork, signals), Multithreading, Microservices, Node.js, Spring Boot |
+| **Systems & Backend** | Memory Optimization, Process Management (fork, signals), Multithreading, Microservices, RESTful APIs, Node.js, Spring Boot |
 | **Databases** | PostgreSQL, MySQL, MariaDB, MongoDB |
-| **Tools & Process** | Git, Docker, Agile Methodology, RESTful APIs |
+| **Tools & Process** | Git, Docker, Agile Methodology |
