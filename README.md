@@ -19,7 +19,7 @@ I am a Software Developer at 42 Belgium, transitioning from a 12-year career as 
 
 ---
 
-Technical Skills
+## Technical Skills
 
 | Category | Skills |
 | :--- | :--- |
