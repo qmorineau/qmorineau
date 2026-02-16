@@ -1,5 +1,5 @@
 # Quentin Morineau
-## Software Developer | 42 Student | Brussels
+## Software Developer | 42 Trainee | Brussels
 
 I am a Software Developer at 42 Belgium, transitioning from a 12-year career as a Pastry Chef in international environments. My focus is on low-level C/C++, system optimization, and graphics programming. I apply the same rigor and precision required in professional kitchens to memory management and code performance.
 
