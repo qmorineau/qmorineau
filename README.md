@@ -17,6 +17,14 @@ I am a Software Developer at 42 Belgium, transitioning from a 12-year career as 
 
 * Focus: Matrix transformations and coordinate systems.
 
+### [Transcendence (Real-Time Gaming Platform) | TypeScript / Node.js](https://github.com/qmorineau/transcendance)
+
+* Developed a full-stack Pong platform featuring a centralized, authoritative game engine for cheat-proof multiplayer synchronization.
+
+* Engineered a decoupled backend architecture supporting simultaneous real-time sessions across 3D Web and SSH-based CLI clients.
+
+* Focus: Authoritative state management, Real-time networking, and System architecture.
+
 ---
 
 ## Technical Skills
