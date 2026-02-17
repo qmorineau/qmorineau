@@ -25,6 +25,16 @@ I am a Software Developer at 42 Belgium, transitioning from a 12-year career as 
 
 * Focus: Authoritative state management, Real-time networking, and System architecture.
 
+### [ft_ls (System Listing Utility) | C](https://github.com/qmorineau/ft_ls)
+
+* Engineered a performance-oriented clone of the Unix `ls` command, achieving execution speeds within **~1.1x** of the native GNU utility.
+
+* Implemented **statx(2) masking** to minimize kernel-to-userland data overhead and a **Custom Pool Allocator** to eliminate memory fragmentation during massive recursive traversals.
+
+* Optimized output performance using a **16 KB cache-aligned buffer**, ensuring formatting occurs at peak CPU speeds before syscall execution.
+
+* **Focus:** Kernel-level efficiency, Memory Locality, and System Benchmarking.
+
 ---
 
 ## Technical Skills
