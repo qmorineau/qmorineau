@@ -9,6 +9,22 @@ I am a Software Developer at 42 Belgium, transitioning from a 12-year career as 
 
 ## Key Technical Projects
 
+### [scop (OBJ Visualizer & Minimal 3D Engine) | C++ / Modern OpenGL](https://github.com/qmorineau/scop)
+
+* Built a lightweight real‑time 3D renderer implementing a full Modern OpenGL pipeline from scratch.
+
+* Designed a modular engine architecture covering windowing, input handling, GPU resource management, scene graph, and rendering logic.
+  
+* Implemented a complete **OBJ/MTL parser**, supporting vertices, normals, UVs, materials, and diffuse textures.
+  
+* Developed multiple rendering modes: material‑based lighting and textured rendering.
+  
+* Created an interactive **camera system** (FPS + orbital) with adjustable speed, zoom, and recentering.
+  
+* Added a real‑time **light editor** supporting multiple lights, intensity control, RGB tuning, and preset colors.
+  
+* Focus: Graphics pipeline fundamentals, shader architecture, GPU buffers (VAO/VBO/EBO), transformations, and clean engine design.
+
 ### [FDF (Wireframe Visualizer) | C (MiniLibX)](https://github.com/qmorineau/fdf)
 
 * Built a 3D graphic engine to render topographic data as wireframe meshes.
