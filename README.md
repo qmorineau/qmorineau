@@ -58,7 +58,7 @@ I am a Software Developer at 42 Belgium, transitioning from a 12-year career as 
 | Category | Skills |
 | :--- | :--- |
 | **Languages** | C, C++, Java, JavaScript, HTML/CSS, C# (Beginner) |
-| **Graphics & Math** | Linear Algebra, OpenGL, Vulkan (Learning), Unity (Basics), 3D Coordinate Transformations |
+| **Graphics & Math** | Linear Algebra, OpenGL, Unity (Basics), 3D Coordinate Transformations |
 | **Systems & Backend** | Memory Optimization, Process Management (fork, signals), Multithreading, Microservices, RESTful APIs, Node.js, Spring Boot |
 | **Databases** | PostgreSQL, MySQL, MariaDB, MongoDB |
 | **Tools & Process** | Git, Docker, Agile Methodology |
