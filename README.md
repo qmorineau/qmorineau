@@ -25,6 +25,19 @@ I am a Software Developer at 42 Belgium, transitioning from a 12-year career as 
   
 * Focus: Graphics pipeline fundamentals, shader architecture, GPU buffers (VAO/VBO/EBO), transformations, and clean engine design.
 
+### [particle_system (GPU Particle Simulator) | C++ / Modern OpenGL](https://github.com/qmorineau/particle_system)
+
+* Built a real-time GPU-driven particle simulator handling several million particles with no CPU bottleneck.
+
+* Implemented the full simulation pipeline on the GPU via compute shaders, with particle state managed entirely through SSBOs.
+
+* Developed a smoke rendering mode using textured quads with lifetime-based opacity and size evolution.
+
+* Designed interactive controls for emitter position, gravity point, particle count, and simulation speed — all editable at runtime.
+
+* Focus: Compute shaders, GPU-side state management, real-time simulation, and shader-driven visual effects.
+
+
 ### [FDF (Wireframe Visualizer) | C (MiniLibX)](https://github.com/qmorineau/fdf)
 
 * Built a 3D graphic engine to render topographic data as wireframe meshes.
