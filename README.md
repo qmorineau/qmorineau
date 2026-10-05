@@ -22,7 +22,7 @@ Real-time particle simulator running entirely on the GPU: 6 million particles at
 
 ### [ft_ls (System Listing Utility)](https://github.com/qmorineau/ft_ls) | C
 
-Clone of the Unix `ls`, within ~1.1x of GNU `ls` execution time.
+Clone of the Unix `ls`, within ~1.1-2x of GNU `ls` execution time.
 
 * Used `statx(2)` field masking to reduce the data copied from kernel to userland.
 
