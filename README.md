@@ -1,77 +1,69 @@
 # Quentin Morineau
-## Software Developer | 42 Trainee | Brussels
 
-I am a Software Developer at 42 Belgium, transitioning from a 12-year career as a Pastry Chef in international environments. My focus is on low-level C/C++, system optimization, and graphics programming. I apply the same rigor and precision required in professional kitchens to memory management and code performance.
+## C/C++ Developer | Systems & Graphics Programming | Brussels
+
+Student at 42 Belgium, after 12 years as a pastry chef in international kitchens. I build low-level C/C++ software: system utilities, real-time renderers and GPU simulations, with a focus on memory behavior and performance. Open to roles in systems, graphics and embedded.
 
 [LinkedIn](https://www.linkedin.com/in/quentin-morineau) / q.morineau@gmail.com
 
 ---
 
-## Key Technical Projects
+## Projects
 
-### [scop (OBJ Visualizer & Minimal 3D Engine) | C++ / Modern OpenGL](https://github.com/qmorineau/scop)
+### [ft_ls (System Listing Utility)](https://github.com/qmorineau/ft_ls) | C
 
-* Built a lightweight real‑time 3D renderer implementing a full Modern OpenGL pipeline from scratch.
+Clone of the Unix `ls`, within ~1.1x of GNU `ls` execution time.
 
-* Designed a modular engine architecture covering windowing, input handling, GPU resource management, scene graph, and rendering logic.
-  
-* Implemented a complete **OBJ/MTL parser**, supporting vertices, normals, UVs, materials, and diffuse textures.
-  
-* Developed multiple rendering modes: material‑based lighting and textured rendering.
-  
-* Created an interactive **camera system** (FPS + orbital) with adjustable speed, zoom, and recentering.
-  
-* Added a real‑time **light editor** supporting multiple lights, intensity control, RGB tuning, and preset colors.
-  
-* Focus: Graphics pipeline fundamentals, shader architecture, GPU buffers (VAO/VBO/EBO), transformations, and clean engine design.
+* Used `statx(2)` field masking to reduce the data copied from kernel to userland.
 
-### [particle_system (GPU Particle Simulator) | C++ / Modern OpenGL](https://github.com/qmorineau/particle_system)
+* Wrote a custom pool allocator to cut allocation overhead on large recursive traversals.
 
-* Built a real-time GPU-driven particle simulator handling several million particles with no CPU bottleneck.
+* Batched output through a 16 KB cache-aligned buffer to reduce `write` syscalls.
 
-* Implemented the full simulation pipeline on the GPU via compute shaders, with particle state managed entirely through SSBOs.
+### [particle_system (GPU Particle Simulator)](https://github.com/qmorineau/particle_system) | C++17, OpenGL, compute shaders
 
-* Developed a smoke rendering mode using textured quads with lifetime-based opacity and size evolution.
+Real-time particle simulator running entirely on the GPU: 6 million particles at a steady 60 FPS on a 2013 iMac (Linux), and 120 FPS (display-capped) on an RTX 40-series GPU.
 
-* Designed interactive controls for emitter position, gravity point, particle count, and simulation speed — all editable at runtime.
+* Simulation done in compute shaders, with particle state stored in SSBOs (no CPU readback).
 
-* Focus: Compute shaders, GPU-side state management, real-time simulation, and shader-driven visual effects.
+* Smoke rendering mode with textured quads, lifetime-based opacity and size.
 
+* Runtime controls for emitter position, gravity point, particle count and speed.
 
-### [FDF (Wireframe Visualizer) | C (MiniLibX)](https://github.com/qmorineau/fdf)
+### [scop (OBJ Visualizer & Minimal 3D Engine)](https://github.com/qmorineau/scop) | C++17, OpenGL
 
-* Built a 3D graphic engine to render topographic data as wireframe meshes.
+Minimal 3D engine and OBJ viewer, built from scratch on Modern OpenGL.
 
-* Implemented spherical projections to visualize planetary maps (Earth/Moon) with altitude-based color mapping.
+* Modular architecture: windowing, input, GPU resources (VAO/VBO/EBO), scene graph, rendering.
 
-* Focus: Matrix transformations and coordinate systems.
+* Custom OBJ/MTL parser (normals, UVs, materials, diffuse textures).
 
-### [Transcendence (Real-Time Gaming Platform) | TypeScript / Node.js](https://github.com/qmorineau/transcendance)
+* Material-based lighting and textured modes, FPS and orbital cameras, real-time light editor.
 
-* Developed a full-stack Pong platform featuring a centralized, authoritative game engine for cheat-proof multiplayer synchronization.
+### [abstract_data](https://github.com/qmorineau/abstract_data) | C++98 (in progress)
 
-* Engineered a decoupled backend architecture supporting simultaneous real-time sessions across 3D Web and SSH-based CLI clients.
+Reimplementation of STL containers under C++98, without using the STL.
 
-* Focus: Authoritative state management, Real-time networking, and System architecture.
+* `vector`, `list` and iterator system implemented; `deque` and others in progress.
 
-### [ft_ls (System Listing Utility) | C](https://github.com/qmorineau/ft_ls)
+* Same test suite built against both the custom containers and the STL, outputs diffed, with ASan/UBSan.
 
-* Engineered a performance-oriented clone of the Unix `ls` command, achieving execution speeds within **~1.1x** of the native GNU utility.
+### [FDF (Wireframe Visualizer)(MiniLibX)](https://github.com/qmorineau/fdf) | C, MiniLibX
 
-* Implemented **statx(2) masking** to minimize kernel-to-userland data overhead and a **Custom Pool Allocator** to eliminate memory fragmentation during massive recursive traversals.
+Wireframe renderer for topographic data, with spherical projection for planetary maps.
 
-* Optimized output performance using a **16 KB cache-aligned buffer**, ensuring formatting occurs at peak CPU speeds before syscall execution.
+### [Transcendence (Real-Time Gaming Platform)](https://github.com/qmorineau/transcendance) | TypeScript, Node.js
 
-* **Focus:** Kernel-level efficiency, Memory Locality, and System Benchmarking.
+Multiplayer Pong platform with an authoritative server, supporting 3D web and SSH CLI clients.
 
 ---
 
-## Technical Skills
+## Skills
 
 | Category | Skills |
 | :--- | :--- |
-| **Languages** | C, C++, Java, JavaScript, HTML/CSS, C# (Beginner) |
-| **Graphics & Math** | Linear Algebra, OpenGL, Unity (Basics), 3D Coordinate Transformations |
-| **Systems & Backend** | Memory Optimization, Process Management (fork, signals), Multithreading, Microservices, RESTful APIs, Node.js, Spring Boot |
-| **Databases** | PostgreSQL, MySQL, MariaDB, MongoDB |
-| **Tools & Process** | Git, Docker, Agile Methodology |
+| **Languages** | C, C++ (98 and C++17), GLSL |
+| **Graphics** | OpenGL, compute shaders, linear algebra, 3D transformations |
+| **Systems** | Linux, syscalls, memory management, multithreading, processes and signals |
+| **Tools** | Git, Make, Docker, gdb, valgrind, sanitizers |
+| **Familiar with** | TypeScript/Node.js (Transcendence), PostgreSQL |
