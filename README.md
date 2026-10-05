@@ -10,16 +10,6 @@ Student at 42 Belgium, after 12 years as a pastry chef in international kitchens
 
 ## Projects
 
-### [ft_ls (System Listing Utility)](https://github.com/qmorineau/ft_ls) | C
-
-Clone of the Unix `ls`, within ~1.1x of GNU `ls` execution time.
-
-* Used `statx(2)` field masking to reduce the data copied from kernel to userland.
-
-* Wrote a custom pool allocator to cut allocation overhead on large recursive traversals.
-
-* Batched output through a 16 KB cache-aligned buffer to reduce `write` syscalls.
-
 ### [particle_system (GPU Particle Simulator)](https://github.com/qmorineau/particle_system) | C++17, OpenGL, compute shaders
 
 Real-time particle simulator running entirely on the GPU: 6 million particles at a steady 60 FPS on a 2013 iMac (Linux), and 120 FPS (display-capped) on an RTX 40-series GPU.
@@ -29,6 +19,16 @@ Real-time particle simulator running entirely on the GPU: 6 million particles at
 * Smoke rendering mode with textured quads, lifetime-based opacity and size.
 
 * Runtime controls for emitter position, gravity point, particle count and speed.
+
+### [ft_ls (System Listing Utility)](https://github.com/qmorineau/ft_ls) | C
+
+Clone of the Unix `ls`, within ~1.1x of GNU `ls` execution time.
+
+* Used `statx(2)` field masking to reduce the data copied from kernel to userland.
+
+* Wrote a custom pool allocator to cut allocation overhead on large recursive traversals.
+
+* Batched output through a 16 KB cache-aligned buffer to reduce `write` syscalls.
 
 ### [scop (OBJ Visualizer & Minimal 3D Engine)](https://github.com/qmorineau/scop) | C++17, OpenGL
 
