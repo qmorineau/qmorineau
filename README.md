@@ -48,9 +48,13 @@ Reimplementation of STL containers under C++98, without using the STL.
 
 * Same test suite built against both the custom containers and the STL, outputs diffed, with ASan/UBSan.
 
-### [FDF (Wireframe Visualizer)(MiniLibX)](https://github.com/qmorineau/fdf) | C, MiniLibX
+### [Rubik (Cube Solver & Simulator)](https://github.com/qmorineau/rubik) | C++17, OpenGL
 
-Wireframe renderer for topographic data, with spherical projection for planetary maps.
+Real-time 3D Rubik's Cube simulator with an automatic solver.
+
+* Implemented Kociemba's two-phase algorithm with precomputed pruning tables.
+* Animated face rotations rendered with Modern OpenGL, with manual and scripted moves.
+* Average solution length: 23.613 moves | Average solve time: 0.0668 s over 1,000 tests.
 
 ### [Transcendence (Real-Time Gaming Platform)](https://github.com/qmorineau/transcendance) | TypeScript, Node.js
 
