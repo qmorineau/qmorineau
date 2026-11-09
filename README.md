@@ -56,7 +56,7 @@ Real-time 3D Rubik's Cube simulator with an automatic solver.
 * Animated face rotations rendered with Modern OpenGL, with manual and scripted moves.
 * Average solution length: 23.613 moves | Average solve time: 0.0668 s over 1,000 tests.
 
-### [Transcendence (Real-Time Gaming Platform)](https://github.com/qmorineau/transcendance) | TypeScript, Node.js
+### [Transcendence (Real-Time Gaming Platform)](https://github.com/qmorineau/transcendance) | JavaScript, Node.js
 
 Multiplayer Pong platform with an authoritative server, supporting 3D web and SSH CLI clients.
 
@@ -70,4 +70,4 @@ Multiplayer Pong platform with an authoritative server, supporting 3D web and SS
 | **Graphics** | OpenGL, compute shaders, linear algebra, 3D transformations |
 | **Systems** | Linux, syscalls, memory management, multithreading, processes and signals |
 | **Tools** | Git, Make, Docker, gdb, valgrind, sanitizers |
-| **Familiar with** | TypeScript/Node.js (Transcendence), PostgreSQL |
+| **Familiar with** | JavaScript/Node.js (Transcendence), PostgreSQL |
